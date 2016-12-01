@@ -179,6 +179,35 @@ header nav  {
 	margin-right: 10px; 
 }
 
+.clearfix{
+	overflow: auto;
+	padding: 20px 70px 20px 70px;
+	text-align: justify;
+}
+.imgIzquierda{
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 3px;
+
+}
+
+.imgDerecha{
+	width: 200px;
+	height: 200px;
+	float: right;
+	border: 3px;
+
+}
+
+.img-productos{
+	background-color: #58A365;
+	height: auto;
+	display: inline-block;
+	overflow: auto;
+
+}
+
 @media only screen and (max-width: 1200px) {
 	form#nav-login-form {
 		display: none;
@@ -192,3 +221,6 @@ header nav  {
 @media only screen and (max-width: 650px) {
 	
 }
+
+
+
