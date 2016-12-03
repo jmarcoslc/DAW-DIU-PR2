@@ -1,6 +1,7 @@
 @font-face {
 	font-family: 'Noto Sans';
 	src: url('../fuentes/NotoSans-Regular.ttf');
+
 }
 
 * {
@@ -10,7 +11,7 @@
 a {
 	outline: none;
 	text-decoration: none;
-	color: #999a46;
+	/*color: #999a46;*/
 }
 
 body {
@@ -169,7 +170,7 @@ header nav  {
 }
 
 #foot-wrap a {
-	color: #000;
+	color: white;
 }
 
 #foot-wrap a:hover {
@@ -183,6 +184,7 @@ header nav  {
 #datos-contacto ul li {
 	vertical-align: top;
 	font-size: 16px;
+	color:white;
 }
 
 #datos-contacto ul li i {
@@ -210,10 +212,10 @@ header nav  {
 }
 
 .img-productos{
-	background-color: #58A365;
 	height: auto;
 	display: inline-block;
 	overflow: auto;
+	border: 0.5px solid #6e6c00;
 
 }
 
