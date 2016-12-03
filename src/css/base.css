@@ -43,6 +43,11 @@ body {
     display: block;
 }
 
+header {
+	z-index: 2000;
+	position: relative;
+}
+
 header .nav-wrap {
 	position: fixed;
 	top: 0px;
@@ -62,6 +67,7 @@ header nav ul {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+	position: relative;
 }
 
 header nav ul li {
@@ -118,7 +124,6 @@ header nav  {
 }
 
 #cont-wrap {
-	padding-top: 63px;
 	width: 100%;
 	max-width: 1200px;
 	margin: 0px auto;
@@ -127,7 +132,13 @@ header nav  {
 #cont-wrap article {
 	display: block;
 	clear: both;
+	text-align: justify;
 }
+
+#cont-wrap article p {
+	padding: 10px; 
+}
+
 
 #logo-wrap {
 	padding-top: 63px;
@@ -206,6 +217,48 @@ header nav  {
 
 }
 
+.img-art-wrap {
+	position: relative;
+	text-align: center; 
+}
+
+
+.img-art-wrap p {
+	padding: 10px;
+	background-color: rgba(88, 163, 101, 1);
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 22px;
+	position: absolute;
+	bottom: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+	background-image: url("../imagen/sobre_nosotros_1.jpg");
+}
+
+.parallax2 {
+	background-image: url("../imagen/sobre_nosotros_2.jpg");
+}
+
+.parallax3 {
+	background-image: url("../imagen/sobre_nosotros_3.jpg");
+}
+
 @media only screen and (max-width: 1200px) {
 	form#nav-login-form {
 		display: none;
@@ -216,9 +269,32 @@ header nav  {
 	}
 }
 
-@media only screen and (max-width: 650px) {
-	
+@media only screen and (max-width: 1100px) {
+	.col-t-1 {width: 8.33%;}
+	.col-t-2 {width: 16.66%;}
+	.col-t-3 {width: 25%;}
+	.col-t-4 {width: 33.33%;}
+	.col-t-5 {width: 41.66%;}
+	.col-t-6 {width: 50%;}
+	.col-t-7 {width: 58.33%;}
+	.col-t-8 {width: 66.66%;}
+	.col-t-9 {width: 75%;}
+	.col-t-10 {width: 83.33%;}
+	.col-t-11 {width: 91.66%;}
+	.col-t-12 {width: 100%;}
 }
 
-
-
+@media only screen and (max-width: 650px) {
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+}
