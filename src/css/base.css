@@ -11,7 +11,7 @@
 a {
 	outline: none;
 	text-decoration: none;
-	color: #999a46;
+	/*color: #999a46;*/
 }
 
 body {
@@ -212,10 +212,10 @@ header nav  {
 }
 
 .img-productos{
-	background-color: #58A365;
 	height: auto;
 	display: inline-block;
 	overflow: auto;
+	border: 0.5px solid #6e6c00;
 
 }
 
