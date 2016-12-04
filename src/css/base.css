@@ -174,7 +174,7 @@ header nav  {
 }
 
 #foot-wrap a:hover {
-	color: #777;
+	color: #CCC;
 } 
 
 #datos-contacto ul {
@@ -196,27 +196,32 @@ header nav  {
 	text-align: justify;
 }
 .imgIzquierda{
-	width: 200px;
-	height: 200px;
+	max-width: 200px;
+	max-height: 200px;
 	float: left;
 	border: 3px;
 
 }
 
 .imgDerecha{
-	width: 200px;
-	height: 200px;
+	max-width: 200px;
+	max-height: 200px;
 	float: right;
 	border: 3px;
 
 }
 
-.img-productos{
+.img-productos {
 	height: auto;
-	display: inline-block;
 	overflow: auto;
-	border: 0.5px solid #6e6c00;
+	border-top: 2px solid #6e6c00;
+	border-bottom: 2px solid #6e6c00;
+	text-align: center;
+	margin: 15px 0px;
+}
 
+.img-productos img {
+	max-height: 150px;
 }
 
 .img-art-wrap {
