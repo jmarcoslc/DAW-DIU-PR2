@@ -41,9 +41,35 @@
 		</div>
 	</header>
 
-	<section id="cont-wrap">
+	<section id="mapa-contacto">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3136.7526511413485!2d-3.0091777843617113!3d38.16918769714128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6f1b9271ea0707%3A0x99eb7ed96d92516!2sAv.+Valencia%2C+23%2C+Villanueva+del+Arzobispo%2C+Ja%C3%A9n!5e0!3m2!1ses!2ses!4v1480522611800" width="100%" height="500" frameborder="0" style="pointer-events:none;border:0" allowfullscreen></iframe>
+		<p>Contacta con nosotros</p>
+	</section>
 
-		
+	<section id="cont-wrap">
+		<form id="contacto">
+			<div class="row">
+				<div class="col-6 col-t-12 col-m-12">
+					<input type="text" tabindex="1" name="nombre" placeholder="Nombre">
+					<select tabindex="3" name="departamento">
+						<option disabled selected>Seleccione un departamento</option>
+						<option value="ventas">Ventas</option>
+						<option value="ventas">Recursos humanos</option>
+						<option value="ventas">Administración</option>
+					</select>
+				</div>
+				<div class="col-6 col-t-12 col-m-12">
+					<input tabindex="2" type="text" name="apellidos" placeholder="Apellidos">
+					<input tabindex="4" type="text" name="asunto" placeholder="Asunto">
+				</div>
+				<div class="col-12">
+					<textarea tabindex="5" placeholder="Mensaje" name="mensaje"></textarea>
+				</div>
+				<div class="col-12">
+					<input tabindex="6" type="submit" value="Enviar">
+				</div>
+			</div>
+		</form>
 	</section>
 
 	<footer>
