@@ -270,8 +270,20 @@ header nav  {
     background-size: cover;
 }
 
+#logo-parallax {
+	width: 150px;
+	margin-top: 50px;
+}
+
+#logo-text {
+	display: block;
+	color: #FFF;
+	font-size: 30px;
+}
+
 .parallax1 {
 	background-image: url("../imagen/sobre_nosotros_1.jpg");
+	margin-top: 44px;
 }
 
 .parallax2 {
@@ -425,8 +437,6 @@ footer{
 	#form-display {
 		display: block
 	}
-
-
 }
 
 .texto{
