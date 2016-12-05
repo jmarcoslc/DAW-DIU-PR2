@@ -262,6 +262,7 @@ header nav  {
 
 .parallax1 {
 	background-image: url("../imagen/sobre_nosotros_1.jpg");
+	margin-top: 44px;
 }
 
 .parallax2 {
@@ -272,12 +273,19 @@ header nav  {
 	background-image: url("../imagen/sobre_nosotros_3.jpg");
 }
 
+#logo-parallax {
+	width: 300px;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+}
+
 #contacto {
 	text-align: center;
 }
 
 #contacto input, #contacto select, #contacto textarea {
-	border: 1px solid #6e6c00;
+	border: 1px solid #DDD;
 	border-radius: 3px;
 	padding: 7px;
 	display: block;
