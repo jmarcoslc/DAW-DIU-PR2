@@ -83,7 +83,7 @@ header nav ul li a {
 }
 
 form#nav-login-form {
-	padding: 9px !important;
+	padding: 8.5px !important;
 	text-align: right;
 }
 
@@ -283,7 +283,7 @@ header nav  {
 
 .parallax1 {
 	background-image: url("../imagen/sobre_nosotros_1.jpg");
-	margin-top: 44px;
+	margin-top: 42px;
 }
 
 .parallax2 {
