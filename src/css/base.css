@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", "FontAwesome", sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -302,25 +302,25 @@ span#logo-text {
 	text-align: center;
 }
 
-#contacto input, #contacto select, #contacto textarea {
+#contacto input, #contacto select, #contacto textarea, #registro input, #registro select, #registro textarea, #login input, #login textarea, #login select {
 	border: 1px solid #ddd;
 	border-radius: 3px;
 	padding: 7px;
 	display: block;
 	margin: 10px;
 	width: 100%;
-	font-family: "Noto Sans";
+	font-family: "Noto Sans", "FontAwesome", sans-serif;
 }
 
 #contacto textarea {
 	height: 300px;
 }
 
-#contacto input:focus, #contacto select:focus, #contacto textarea:focus, #contacto input[type="submit"]:hover {
+#contacto input:focus, #contacto select:focus, #contacto textarea:focus, #contacto input[type="submit"]:hover, #login input:focus, #registro input:focus, #registro input[type="submit"]:hover, #login input[type="submit"]:hover {
 	box-shadow: 0px 0px 7px #CCC;
 }
 
-#contacto input[type="submit"] {
+#contacto input[type="submit"], #registro input[type="submit"], #login input[type="submit"] {
 	width: auto;
 	margin: auto auto;
 	background-color: #999a46;
@@ -330,9 +330,34 @@ span#logo-text {
 	border-color: transparent;
 }
 
-#contacto input[type="submit"]:hover {
+#contacto input[type="submit"]:hover, #registro input[type="submit"]:hover, #login input[type="submit"]:hover {
 	background-color: #7F7D00;
 	cursor: pointer;
+}
+
+#registro {
+	border-right: 2px solid #DDD;
+}
+
+#registro textarea {
+	height: 200px;
+}
+
+#registro h1, #login h1 {
+	text-align: center;
+}
+
+#registro input[type="submit"], #login input[type="submit"] {
+	width: auto;
+	margin: 15px auto 0px auto;
+}
+
+#registro input, #login input {
+	margin: 10px 0px;
+}
+
+#registro div[class*="col-"], #login div[class*="col-"] {
+	padding: 0px 10px;
 }
 
 .filter-product nav ul{
@@ -430,9 +455,15 @@ p.carro{
 	padding-top: 15px;
 
 }
-footer{
+
+footer {
 	margin-top: 15px;
 }
+
+.texto {
+	text-align: justify;
+}
+
 @media only screen and (max-width: 1200px) {
 	form#nav-login-form {
 		display: none;
@@ -441,10 +472,6 @@ footer{
 	#form-display {
 		display: block
 	}
-}
-
-.texto{
-	text-align: justify;
 }
 
 @media only screen and (max-width: 1100px) {
