@@ -1,0 +1,28 @@
+.imgIzquierda{
+	max-width: 200px;
+	max-height: 200px;
+	float: left;
+	border: 3px;
+
+}
+
+.imgDerecha{
+	max-width: 200px;
+	max-height: 200px;
+	float: right;
+	border: 3px;
+
+}
+
+.img-productos {
+	height: auto;
+	overflow: auto;
+	border-top: 2px solid #6e6c00;
+	border-bottom: 2px solid #6e6c00;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.img-productos img {
+	max-height: 150px;
+}
