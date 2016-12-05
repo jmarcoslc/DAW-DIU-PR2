@@ -277,8 +277,12 @@ header nav  {
 
 #logo-text {
 	display: block;
-	color: #FFF;
+	color: inherit;
 	font-size: 30px;
+}
+
+span#logo-text {
+	color: #FFF;
 }
 
 .parallax1 {
