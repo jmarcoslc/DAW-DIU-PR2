@@ -225,6 +225,14 @@ span#logo-text {
 	color: #FFF;
 }
 
+footer {
+	margin-top: 15px;
+}
+
+.texto {
+	text-align: justify;
+}
+
 @media only screen and (max-width: 1200px) {
 	form#nav-login-form {
 		display: none;

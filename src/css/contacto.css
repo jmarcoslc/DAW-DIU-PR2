@@ -11,7 +11,7 @@
 	display: block;
 	margin: 10px;
 	width: 100%;
-	font-family: "Noto Sans";
+	font-family: "Noto Sans", "FontAwesome", sans-serif;
 }
 
 #contacto textarea {
