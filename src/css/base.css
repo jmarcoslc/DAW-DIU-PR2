@@ -79,6 +79,7 @@ header nav, #nav-login-form-wrap  {
 }
 
 header nav ul {
+	display: block;
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
@@ -97,7 +98,7 @@ header nav ul li a {
 }
 
 form#nav-login-form {
-	padding: 8.5px !important;
+	padding: 8px !important;
 	text-align: right;
 }
 
@@ -105,17 +106,23 @@ form#nav-login-form i {
 	color: #FFF;
 }
 
+form#nav-login-form input[type="submit"] {
+	display: none;
+}
+
 form#nav-login-form input {
 	border: 0px;
 	padding: 4px;
+	border-radius: 3px;
+	font-family: "Noto Sans", "FontAwesome", sans-serif;
+}
+
+form#nav-login-form input:nth-child(2) {
+	margin-left: 10px;
 }
 
 form#nav-login-form input:focus {
 	box-shadow: 0 0 5px rgba(255, 255, 255, 1);
-}
-
-form#nav-login-form * {
-	margin-left: 5px;
 }
 
 #form-display {
@@ -243,6 +250,38 @@ footer {
 @media only screen and (max-width: 1200px) {
 	form#nav-login-form {
 		display: none;
+		width: 100%;
+		position: absolute;
+		top: 43px;
+		right: 0px;
+		background: #868C01;
+		background: -moz-linear-gradient(top, #868C01 0%, #7B7C39 100%);
+		background: -webkit-linear-gradient(top, #868C01 0%,#7B7C39 100%);
+		background: linear-gradient(to bottom, #868C01 0%,#7B7C39 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#868C01', endColorstr='#7B7C39',GradientType=0 );
+	}
+
+	form#nav-login-form input:nth-child(2) {
+		margin-left: 0px;
+	}
+
+	form#nav-login-form input {
+		display: block;
+		margin: 10px;
+		margin-left: 0px;
+		width: 100%;
+		padding: 7px;
+	}
+
+	form#nav-login-form input[type="submit"] {
+		display: block;
+		text-transform: uppercase;
+		background-color: #4C4B00;
+		color: #FFF;
+	}
+
+	form#nav-login-form input[type="submit"]:hover {
+		background-color: #3C3B00;
 	}
 
 	#form-display {
@@ -265,7 +304,7 @@ footer {
 	.col-t-12 {width: 100%;}
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 660px) {
 	.col-m-1 {width: 8.33%;}
 	.col-m-2 {width: 16.66%;}
 	.col-m-3 {width: 25%;}
@@ -287,6 +326,24 @@ footer {
 
 	header nav ul {
 		display: none;
+		position: absolute;
+		top: 43px;
+		background: #868C01;
+		background: -moz-linear-gradient(top, #868C01 0%, #7B7C39 100%);
+		background: -webkit-linear-gradient(top, #868C01 0%,#7B7C39 100%);
+		background: linear-gradient(to bottom, #868C01 0%,#7B7C39 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#868C01', endColorstr='#7B7C39',GradientType=0 );
+		width: 100%;
+	}
+
+	header nav ul li {
+		display: block;
+		text-align: center;
+	}
+
+	header nav ul li a:hover, header nav ul li a.menu-activo {
+		background: none;
+		background-color: #4C4B00;
 	}
 
 	#menu-nav-display {
