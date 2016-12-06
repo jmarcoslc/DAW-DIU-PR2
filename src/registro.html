@@ -13,17 +13,22 @@
 	<header>
 		<div class="row">
 			<div class="nav-wrap col-12">
-			<div class="row">
+			<div class="nav-wrap col-12">
+				<div class="row">
 					<nav class="col-8">
+						<i id="menu-nav-display" class="fa fa-bars fa-2x" aria-hidden="true"></i>
 						<ul>
-							<li><a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li><li><a href="nuestros_productos.html">Productos</a></li><li><a href="tienda.html">Tienda online</a></li><li><a href="contacto.html">Contacto</a></li><li class="menu-activo"><a href="registro.html">Registro</a></li>
+							<li><a class="menu-activo" href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li><li><a href="nuestros_productos.html">Productos</a></li><li><a href="tienda.html">Tienda online</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="registro.html">Registro</a></li>
 						</ul>
 					</nav>
-					<form class="col-4" id="nav-login-form">
-						<i class="fa fa-user fa-lg" aria-hidden="true"></i><input size="13" type="text" placeholder="Usuario" name="usuario"><i class="fa fa-key fa-lg" aria-hidden="true"></i><input size="13" placeholder="Contraseña" type="password" name="pass">
-					</form>
-					<i id="form-display" class="fa fa-sign-in fa-2x" aria-hidden="true"></i>
+					<div id="nav-login-form-wrap" class="col-4">
+						<i id="form-display" class="fa fa-sign-in fa-2x" aria-hidden="true"></i>
+						<form id="nav-login-form">
+							<i class="fa fa-user fa-lg" aria-hidden="true"></i><input size="13" type="text" placeholder="Usuario" name="usuario"><i class="fa fa-key fa-lg" aria-hidden="true"></i><input size="13" placeholder="Contraseña" type="password" name="pass">
+						</form>
+					</div>
 				</div>
+			</div>
 			</div>
 			<div class="row">
 				<div id="logo-wrap" class="col-12">
