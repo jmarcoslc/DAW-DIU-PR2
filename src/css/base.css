@@ -245,7 +245,9 @@ footer {
 
 .texto {
 	text-align: justify;
+
 }
+
 
 @media only screen and (max-width: 1200px) {
 	form#nav-login-form {
