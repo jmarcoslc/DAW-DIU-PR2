@@ -19,7 +19,7 @@ body {
     padding: 0px;
     margin: 0px;
 }
-#cont-wrap {
+#cont-wrap, .cont-wrap {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0px auto;
@@ -74,7 +74,7 @@ header .nav-wrap {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999a46', endColorstr='#868c00',GradientType=0 );
 }
 
-header nav {
+header nav, #nav-login-form-wrap  {
 	padding: 0px !important;
 }
 
@@ -120,14 +120,20 @@ form#nav-login-form * {
 
 #form-display {
 	display: none;
-	padding: 5px;
-	float: right;
+	padding: 5.5px;
 	margin-right: 5px;
 	color: #FFF;
+	cursor: pointer;
+	float: right;
 }
 
-header nav  {
-	float: right;
+#menu-nav-display {
+	display: none;
+	padding: 5.5px;
+	margin-left: 5px;
+	color: #FFF;
+	cursor: pointer;
+	float: left;
 }
 
 .menu-activo, nav ul li a:hover {
@@ -163,6 +169,7 @@ header nav  {
 
 #foot-wrap ul {
 	list-style: none;
+	padding: 0px;
 }
 
 #foot-wrap li {
@@ -272,9 +279,17 @@ footer {
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
 
-	.filter-product nav li{
+	.filter-product nav li {
 		flex: none; 
 		width: 100%;
 		border-bottom: solid 1px #777;
+	}
+
+	header nav ul {
+		display: none;
+	}
+
+	#menu-nav-display {
+		display: block;
 	}
 }
