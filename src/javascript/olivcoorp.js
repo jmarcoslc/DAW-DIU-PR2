@@ -26,10 +26,15 @@ function anadirListeners() {
 }
 
 function resetearEstilosMenu() {
-	var menu_responsivo = document.querySelector("#menu-nav-display + ul");
-	var login_responsivo = document.getElementById("nav-login-form");
-	menu_responsivo.style.display = null;
-	login_responsivo.style.display = null;
+	if (screen.width > 660) {
+		var menu_responsivo = document.querySelector("#menu-nav-display + ul");
+		menu_responsivo.style.display = null;
+	}
+
+	if (screen.width > 1200) {
+		var login_responsivo = document.getElementById("nav-login-form");
+		login_responsivo.style.display = null;
+	}
 }
 
 window.onload = function() {
