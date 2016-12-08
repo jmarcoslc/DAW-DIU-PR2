@@ -37,6 +37,33 @@ function resetearEstilosMenu() {
 	}
 }
 
+//IMAGEN //
+
+function expandir_img(){
+	var img = document.getElementById('myImg');
+	var modalImg = document.getElementById("img01");
+
+	img.onclick = function(){
+		var modal = document.getElementById("myModal");
+    	modal.style.display = "block";
+    	modalImg.src = this.src; 
+    }
+}
+
+function cerrar_img(){
+	var span = document.getElementsByClassName("close")[0];
+
+	span.onclick = function() {
+		var modal = document.getElementById("myModal");
+		modal.style.display = "none";
+	}
+}
+
+
+
 window.onload = function() {
 	anadirListeners();
+	expandir_img();
+	cerrar_img();
+
 }
