@@ -57,7 +57,7 @@ iframe{
     width: 100%; 
     height: 100%;
     /*overflow: auto;*/
-
+    background-color: rgba(0,0,0,0.9);
 }
 
 /* Modal Content (image) */
@@ -65,7 +65,7 @@ iframe{
     margin: auto;
     display: block;
     width: 50%;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 /* Caption of Modal Image */
@@ -103,7 +103,7 @@ iframe{
     position: absolute;
     top: 50px;
     right: 35px;
-    color: black;
+    color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
