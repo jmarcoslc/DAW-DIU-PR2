@@ -41,9 +41,31 @@ function resetearEstilosMenu() {
 
 function expandir_img(){
 	var img = document.getElementById('myImg');
+	var img2 = document.getElementById('myImg2');
+	var img3 = document.getElementById('myImg3');
+	var img4 = document.getElementById('myImg4');
+
 	var modalImg = document.getElementById("img01");
 
 	img.onclick = function(){
+		var modal = document.getElementById("myModal");
+    	modal.style.display = "block";
+    	modalImg.src = this.src; 
+    }
+
+    img2.onclick = function(){
+		var modal = document.getElementById("myModal");
+    	modal.style.display = "block";
+    	modalImg.src = this.src; 
+    }
+       
+    img3.onclick = function(){
+		var modal = document.getElementById("myModal");
+    	modal.style.display = "block";
+    	modalImg.src = this.src; 
+    }
+
+    img4.onclick = function(){
 		var modal = document.getElementById("myModal");
     	modal.style.display = "block";
     	modalImg.src = this.src; 
