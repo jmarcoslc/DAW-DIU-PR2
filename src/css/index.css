@@ -33,3 +33,7 @@ article p {
 .parallax3 {
 	background-image: url("../imagen/sobre_nosotros_3.jpg");
 }
+
+header{
+	position: relative;
+}
